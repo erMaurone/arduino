@@ -36,14 +36,12 @@ void loop() {
   if (onOffSwitchState != previousOnOffSwitchState) {
 
     if (onOffSwitchState == HIGH) {
-      //book statement motorEnabled != motorEnabled test but does not change value
       motorEnabled = !motorEnabled;
     }
   }
   
   if (directionSwitchState != previousDirectionSwitchState) {
     if (directionSwitchState == HIGH) {
-      //book statement motorDirection != motorDirection test but does not change value
       motorDirection = !motorDirection;
     }
   }
